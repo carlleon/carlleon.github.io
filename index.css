@@ -1,0 +1,257 @@
+body {
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+}
+
+span {
+	color: rgb(65,136,200);
+}
+
+.navigation a {
+	display: inline;
+}
+
+.navigation ul {
+	float: right;
+	list-style-type: none;
+	display: block;
+	color: rgb(255,255,255);
+}
+
+.navigation ul li {
+	margin: 5px 0px 5px 40px;
+	float: right;
+}
+.navigation ul li a {
+	border: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	border-style: line;
+	border-color: rgb(65,136,200);
+	color: white;
+	display: block;
+	font-family: "Myriad Pro";
+	font-size: 14px;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.navigation ul li a:hover {
+	font-family: "Myriad Pro";
+	font-size: 14px;
+	color: rgb(65,136,200);
+	background-color: white;
+	text-decoration: none;
+}
+
+.navigation ul li a:active {
+	font-family: "Myriad Pro";
+	font-size: 14px;
+	color: white;
+	background-color: rgb(65,136,200);
+	border: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	border-style: line;
+	border-color: white;
+	text-decoration: none;
+}
+
+.creative-logo {
+	width: 50px;
+	height: 50px;
+}
+.hero-unit {
+	padding: 40px;
+	background-color: rgb(65,136,200);
+}
+
+.hero-unit-content {
+	padding: 60px;
+}
+
+.hero-unit-content h1 {
+	color: white;
+	font-family: "Poppins-Extralight";
+}
+
+.hero-unit-content p {
+	color: white;
+	font-family: "Poppins-Light";
+}
+.hero-unit-content a {
+	color: white;
+	padding: 5px 30px 5px 30px;
+	margin-right: 10px;
+	border: solid;
+	border-width: 1px;
+	border-radius: 10px;
+	border-style: line;
+	border-color: white;
+	background-color: rgb(65,136,200);
+	text-decoration: none;
+	font-size: 12px;
+	font-family: "Poppins-Bold";
+}
+.hero-unit-content a:active {
+	color: rgb(65,136,200);
+	border-color: white;
+	background-color: white;;
+}
+
+.hero-unit-content img {
+	display: inline;
+	float: right;
+	clear: right;
+}
+.about {
+	padding: 100px;
+}
+.about h1 {
+	font-family: "Poppins-Extralight";
+}
+
+.about a{
+	text-decoration: none;
+}
+.about a:hover span {
+	color: lightblue;
+}
+
+.about p {
+	font-family: "Montserrat-Regular"
+	font-size: 12px;
+}
+
+.features {
+	padding: 50px;
+	background-color: rgb(65,136,200);
+}
+
+.features h1 {
+	text-align: center;
+	letter-spacing: 5px;
+	font-family: "Poppins-Extralight";
+	color: white;
+}
+.content-container {
+	width: 1960;
+	width: 0 auto;
+}
+.features-content {
+	display: inline-block;
+	width: 33%;	
+}
+.features-content div {	
+	padding-bottom: 20px;
+}
+
+.features-content img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.features-content div img {
+	width: auto;
+	height: auto;
+}
+
+#left-content *{
+	margin: 0px;
+	padding-left: 30px;
+	color: white;
+	float: left;
+}
+
+#right-content *{
+	margin: 0px;
+	padding-right: 30px;
+	color: white;
+	float: right;
+}
+
+.download h2 {
+	font-family: "Montserrat-Regular";
+	text-align: center;
+}
+
+.download a{
+	text-decoration: none;
+}
+.download a:hover span {
+	color: lightblue;
+}
+
+.download p {
+	font-family: "Montserrat-Regular";
+	text-align: center;
+}
+.imagelink {
+
+	text-align: center;
+}
+.imagelink img{
+
+	margin: 10px 30px 10px 30px;
+}
+
+footer {
+	background-color: rgb(65,136,200);
+	color: white;	
+}
+
+footer img {
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+footer small{
+	padding: 10px;
+	text-align: center;
+	display: block;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('font/Montserrat-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('font/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url('font/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Extralight';
+    src: url('font/Poppins-Extralight.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('font/Poppins-Bold.ttf');
+}
+
+
+.project-list ul li{
+	list-style-type: none;
+}
+
+.project-list a {
+	margin: 20px;
+	padding: 10px 50px;
+	border: solid;
+	border-width: 1px;
+}
+
+.project-list a:active {
+	background-color: rgb(65,136,200);
+	color: white;
+}

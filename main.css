@@ -8,12 +8,17 @@ span {
 	color: rgb(65,136,200);
 }
 
+.navigation a {
+	display: inline;
+}
+
 .navigation ul {
 	float: right;
 	list-style-type: none;
 	display: block;
 	color: rgb(255,255,255);
 }
+
 .navigation ul li {
 	margin: 5px 0px 5px 40px;
 	float: right;
