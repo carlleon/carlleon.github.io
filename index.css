@@ -73,12 +73,12 @@ span {
 
 .hero-unit-content h1 {
 	color: white;
-	font-family: "Poppins-Extralight";
+	font-family: "Poppins Extralight";
 }
 
 .hero-unit-content p {
 	color: white;
-	font-family: "Poppins-Light";
+	font-family: "Poppins Light";
 }
 .hero-unit-content a {
 	color: white;
@@ -92,7 +92,7 @@ span {
 	background-color: rgb(65,136,200);
 	text-decoration: none;
 	font-size: 12px;
-	font-family: "Poppins-Bold";
+	font-family: "Poppins Bold";
 }
 .hero-unit-content a:active {
 	color: rgb(65,136,200);
@@ -109,7 +109,7 @@ span {
 	padding: 100px;
 }
 .about h1 {
-	font-family: "Poppins-Extralight";
+	font-family: "Poppins Extralight";
 }
 
 .about a{
@@ -120,7 +120,7 @@ span {
 }
 
 .about p {
-	font-family: "Montserrat-Regular"
+	font-family: "Montserrat Regular"
 	font-size: 12px;
 }
 
@@ -132,7 +132,7 @@ span {
 .features h1 {
 	text-align: center;
 	letter-spacing: 5px;
-	font-family: "Poppins-Extralight";
+	font-family: "Poppins Extralight";
 	color: white;
 }
 .content-container {
@@ -172,7 +172,7 @@ span {
 }
 
 .download h2 {
-	font-family: "Montserrat-Regular";
+	font-family: "Montserrat Regular";
 	text-align: center;
 }
 
@@ -184,7 +184,7 @@ span {
 }
 
 .download p {
-	font-family: "Montserrat-Regular";
+	font-family: "Montserrat Regular";
 	text-align: center;
 }
 .imagelink {
@@ -214,30 +214,7 @@ footer small{
 	display: block;
 }
 
-@font-face {
-    font-family: 'Montserrat-Regular';
-    src: url('font/Montserrat-Regular.otf');
-}
 
-@font-face {
-    font-family: 'Poppins-SemiBold';
-    src: url('font/Poppins-SemiBold.ttf');
-}
-
-@font-face {
-    font-family: 'Poppins-Light';
-    src: url('font/Poppins-Light.ttf');
-}
-
-@font-face {
-    font-family: 'Poppins-Extralight';
-    src: url('font/Poppins-Extralight.ttf');
-}
-
-@font-face {
-    font-family: 'Poppins-Bold';
-    src: url('font/Poppins-Bold.ttf');
-}
 
 
 .project-list ul li{
